@@ -1,4 +1,6 @@
 remote_theme: pages-themes/hacker@v0.2.0
+title: [Onboarding Tribe Serviços]
+description: [Documentação para Onboarding completo para desenvolvedores na Tribe Serviços da @totvs]
 plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
