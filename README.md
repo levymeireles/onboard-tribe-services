@@ -7,7 +7,7 @@
  - [Vs code](https://code.visualstudio.com/download)
  - [Nodejs](https://nodejs.org/en) - lastest version
  - [GitBash](https://git-scm.com/downloads) - Git commands
- - [Angular](https://angular.io/cli) - Instalar globalmente
+ - [Angular](https://angular.io/guide/setup-local) - Instalar globalmente
  `npm install -g @angular/cli` 
  - [Ionic](https://ionicframework.com/) - Instalar globalmente 
  `npm i -g @ionic/cli`
