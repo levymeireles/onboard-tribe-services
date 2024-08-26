@@ -2,6 +2,8 @@
 
 ## [Aplicativos de Apps e Portais](./APPS-E-PORTAIS.md)
 
+## [Produtos](./PRODUCTS.md)
+
 ## [Instalações](./INSTALLS.md)
 
 ## Ferramentas essenciais
