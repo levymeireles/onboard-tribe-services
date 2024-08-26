@@ -4,9 +4,9 @@
 
 ### Pull Request
 
-Como solicitar um Pull Request ou PR no gitea:
+#### Como criar um Pull Request ou PR no gitea
 
-- Abra o repositório que deseja criar a pull request no gitea
+Para criar um pull request, abra o repositório que deseja criar a pull request no gitea
 
 - Clique em Pull Request nas opções do repositório
 ![Menu do gitea](./public/images/pr_1.png)
@@ -28,3 +28,21 @@ Como solicitar um Pull Request ou PR no gitea:
 
 - Agora, pode visualizar sua pull request criada no menu `Pull Requests` do seu repositório
 ![Menu de pull requests do repositório](./public/images/pr_7.png)
+
+#### Como resolver um conflito de um Pull Request no gitea
+
+Para resolver conflitos resultantes de um PR no gitea
+
+- Dentro do seu projeto no VsCode Vá para a branch de origem do pull request `git checkout <MINHA_BRANCH_FSM0001>`
+
+- Na branch execute o comando git `git merge origin/dev` nesse caso estamos utilizando a branch **origin/dev** como branch de comparação, ou seja, branch na qual quero jogar meu PR
+
+- O VsCode irá acusar os conflitos que você visualizou quando pegou esse pull request para resolver. Basta resolver esses conflitos na sua máquina na branch origem do pull request, no caso do exemplo é a **MINHA_BRANCH_FSM0001**
+
+- Após os conflitos resolvidos, tenha certeza que já commitou as mudanças com o comando `git commit`
+
+- Agora é só subir esses novos commits para o repositório remoto `git push`
+
+- Como já tem um PR aberto o gitea entenderá esses commits como atualizações desse PR e então não apontará mais os conflitos como existentes, já que você já resolveu eles.
+
+- Agora só finalizar a PR pelo gitea normalmente.
