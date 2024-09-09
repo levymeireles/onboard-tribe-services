@@ -6,6 +6,8 @@
 - [Field Service Management](./products/FSM.md)
 - [Urbano](./products/URBANO.md)
 
+## [Aplicativos Web (Angular e PO-UI)](./APP_WEB.md)
+
 ## Ferramentas essenciais
 
 - [Vs code](https://code.visualstudio.com/download) - Editor de códigos
@@ -17,7 +19,7 @@
 ## Ferramentas adicionais
 
 - [Nvm](https://github.com/nvm-sh/nvm#installation-and-update) - Para alterar entre as versões do node
-  - [Nvm Windows](https://github.com/coreybutler/nvm-windows/releases)
+- [Nvm Windows](https://github.com/coreybutler/nvm-windows/releases)
 - [Postman](https://www.postman.com/downloads/) - Plataforma para testes de API
 
 ## Configurações adicionais
