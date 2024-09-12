@@ -89,8 +89,6 @@ Agora com o repositório clonado, vá para o diretório do repositório clonado,
 
 Agora com o VsCode aberto, pode fechar o terminal e usar o VsCode para trabalhar nesse repositório.
 
-<!-- ## Criando uma branch -->
-
 ## GITEA
 
 ### Pull Request
