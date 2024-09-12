@@ -28,4 +28,4 @@
   
 ## [Instalações](./INSTALLS.md)
 
-## [Git Flow](./GIT_FLOW.md)
+## [Git Flow](./GIT.md)
